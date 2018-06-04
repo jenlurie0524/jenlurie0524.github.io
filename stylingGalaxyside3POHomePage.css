@@ -1,0 +1,263 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0; 
+	background-color: black;
+}
+
+
+/*fixed images at top*/
+
+p{
+	padding-top: 25px;
+}
+
+* {
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+div.galaxyIntro {
+  background: url("Img/galaxyFarFarAwayPic.png") center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 1000px;
+}
+
+
+/* Style the navbar */
+#navbar{
+	overflow: hidden;
+	background: goldenrod;
+	z-index: 1;
+}
+
+.galaxyNav{
+	display: flex;
+}
+
+/* Navbar links */
+.flexNav{
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  flex: 1;
+}
+
+
+
+
+/*Nav Logo*/
+
+.galaxyLogo{
+	color: black;
+	font-size: 32px;
+	font-weight: 800;
+	flex: 1;
+	max-width: 175px;
+	padding-left: 10px;
+		
+}
+
+.galaxyNavImg{
+	width: 100px;
+	height: 100px;
+	padding: 10px
+	color: black;
+}
+
+/* Hero Page */
+
+.heroSlideSize{
+	width: 100%;
+
+}
+
+.carousel-inner{
+	width: 100%;
+	z-index: -100;
+}
+
+.sr-only{
+	z-index: -50;
+}
+
+.heroText1{
+	font-weight: 600;
+	width: 500px;
+	margin-top: auto;
+	margin-left: 240px;
+	padding-top: 140px;
+}
+
+
+.heroText2{
+	font-weight: 600;
+	width: 500px;
+	margin-top: auto;
+	margin-left: 140px;
+	padding-top: 340px;
+}
+
+
+.heroText3{
+	font-weight: 800;
+	width: 450px;
+	margin-top: auto;
+	margin-left: 40px;
+	padding-top: 140px;
+	text-align: center;
+}
+ 
+.demoButton{
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 280px;
+  display: block;
+  background: goldenrod;
+  margin: -50px auto 0 auto;
+  text-decoration: none;
+  padding: 12px 0px;
+  text-align: center;
+}
+
+/*Home Page About Section*/
+
+#leiaGif{
+	display: block;
+	margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.helpMeText{
+text-align: center;
+}
+
+#helpMeTextPosition{
+margin-top: -300px;
+margin-right: 300px;
+}
+
+.galaxyHomePageAbout{
+	color: lightblue;
+
+}
+
+
+.galaxyHomePageAboutFlex{
+	display: flex;
+	margin-top: 230px;
+}
+
+.galaxyHomePageAboutSection{
+	flex: 1;
+	text-align: center;
+
+}
+
+.galaxyHomePageAboutSection img{
+	width: auto;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#lightspeedImg{
+	border-radius: 50%;
+}
+
+.galaxyMapContainer{
+		background: url("Img/starWarsMap2.jpg") center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 900px;
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+
+}
+
+.hoverImg{
+	height: 500px;
+	width: 700px;
+	opacity: 0;
+
+}
+
+.hoverImg:hover{
+	background: url("Img/whiteSquare.jpg") center no-repeat;
+	opacity: .9;
+}
+
+.galaxyContactInfo{
+	font-weight: 800;
+}
+
+.followUs{
+	float: left;
+}
+
+.followUs2{
+	float: right;
+}
+
+
+a:hover{
+	text-decoration: none;
+	color: goldenrod;
+}
+
+@media screen and (max-width: 800px){
+	.galaxyMapContainer{
+		height: 100vh;
+
+		}
+
+	.hoverImg{
+	height: 300px;
+	width: 350px;
+}
+}
+
+.footerFlex{
+	display: flex;
+	background: url("Img/starWarsStars.png");
+}
+.galaxyForm{
+	width: 50%;
+	background-color: goldenrod;
+	padding: 20px;
+	margin: 50px;
+	border-radius: 25px;
+	flex: 2;
+}
+
+.galaxyContactInfo{
+	width: 50%;
+	background-color: lightblue;
+	padding: 20px;
+	margin: 50px;
+	border-radius: 25px;	
+	flex: 1;
+
+}
+
+
+.copyrightText{
+  color: goldenrod;
+  padding-top: 15px;
+  background: black;
+  text-align: right;
+  margin-right: 15px;
+}
