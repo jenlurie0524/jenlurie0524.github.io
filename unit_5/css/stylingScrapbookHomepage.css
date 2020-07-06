@@ -1,0 +1,96 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Open+Sans&display=swap');
+
+/* Navigation */
+
+#navbar{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #e8c66a;
+	padding: 5px 0px 10px;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+
+ul{
+	text-align: right;
+	margin: 0px;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+	font-size: 14px;
+	padding: 5px;
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+}
+
+/* Header */
+
+h1{
+	font-family: 'Bad Script', cursive;
+	font-size: 50px;
+	padding: 50px 0px 0px;
+	margin: 0px;
+	color: #702DFF;
+	/*color: #E2211D; */
+
+}
+
+.main-content{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.header-content{
+	border: 2px solid #22e3e5;
+	margin: 5px 15px 5px;
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#slogan{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p{
+	font-size: 14px;
+	color: #000;
+}
+/* Cover Art */
+
+.grid-container{
+  display: grid;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 5px;
+  width: 250px;
+  margin: 20px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px #000;
+}
+
+.row{
+	text-align: center;
+	padding: 15px;
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+figure {
+    background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
