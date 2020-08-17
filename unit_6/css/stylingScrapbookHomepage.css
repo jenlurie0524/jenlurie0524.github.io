@@ -1,13 +1,17 @@
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Open+Sans&display=swap');
 
+#container {
+	margin: 0 auto;
+	width: 1024px;
+	background-color: #ffffff;
+}
+
 /* Navigation */
 
 #navbar{
 	font-family: 'Open Sans', sans-serif;
-	background-color: #e8c66a;
 	padding: 5px 0px 10px;
-	border: 1px black solid;
     padding: 20px;
 }
 
@@ -26,7 +30,13 @@ li{
 
 a{
 	text-decoration: none;
-	color: gray;
+	color: #757575;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #702DFF;
+
 }
 
 /* Header */
@@ -49,8 +59,7 @@ h1{
 .header-content{
 	border: 2px solid #22e3e5;
 	margin: 5px 15px 5px;
-	background-color: #FFED74;
-	border: 1px black solid;
+	border: 2px black solid;
     padding: 20px;
 }
 
@@ -63,10 +72,11 @@ p{
 	font-size: 14px;
 	color: #000;
 }
-/* Cover Art */
+/* Scrapbook Links */
+
 
 .grid-container{
-  display: grid;
+  display: block;
 }
 
 img {
@@ -81,16 +91,39 @@ img:hover {
   box-shadow: 0 0 2px 1px #000;
 }
 
-.row{
-	text-align: center;
-	padding: 15px;
-	background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
+
+.column{
+	float: left;
+	width: 300px;
+  	height: 300px;
+	padding: 20px;
+	margin: 0;
+
 }
 
-figure {
-    background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+#column4{
+	float: left;
+	margin-left: 125px;
+	padding-top: 0px;
+
 }
+
+#column5{
+	float: right;
+	margin-right: 125px;
+	padding-top: 0px;
+
+}
+
+
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+  clear: both;
+  display: table;
+}
+
