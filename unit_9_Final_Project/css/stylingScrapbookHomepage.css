@@ -1,0 +1,201 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Open+Sans&display=swap');
+
+#container {
+	margin: 0 auto;
+	background-color: #ffffff;
+	font-size: 16px;
+	width: 100%;
+}
+
+.hiddenOnDesktop{
+	display: none;
+}
+
+/* Navigation */
+
+#navbar{
+	font-family: 'Open Sans', sans-serif;
+	padding: 2% 2% 1.5%;
+	margin: auto;
+   width: 75%;
+}
+
+
+ul{
+	text-align: right;
+	margin: 0%;
+}
+
+li{
+	list-style-type: none;
+	display: inline;
+	font-size: .9em;
+	padding: .5%;
+}
+
+a{
+	text-decoration: none;
+	color: #757575;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #702DFF;
+
+}
+
+/* Header */
+
+h1{
+	font-family: 'Bad Script', cursive;
+	font-size: 3em;
+	margin: 0%;
+	color: #702DFF;
+	/*color: #E2211D; */
+
+}
+
+.main-content{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	width: 75%;
+	margin: auto;
+	display: block;
+	}
+
+.header-content{
+	border: 2px solid #22e3e5;
+    padding: 3%;
+}
+
+#slogan{
+	font-size: 1.25em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p{
+	font-size: .9em;
+	color: #000;
+}
+/* Scrapbook Links */
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 2%;
+  width: 90%;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px #000;
+}
+
+.row{
+	width: 100%;
+	display: inline-block;
+}
+
+#column1, #column2, #column3 {
+	margin-top: 2%;
+}
+
+.column{
+	width: 25%;
+  	height: 30%;
+  	padding: 2%;
+	margin: 0;
+	display: inline-block;
+
+}
+
+
+/*Responsive Settings*/
+
+/*Three Column Header Fix*/
+
+@media screen and (max-width: 1150px) {
+
+	h1{
+		font-size: 2.5em;
+	}
+
+}
+
+/*Two Column*/
+
+@media screen and (max-width: 975px){
+
+	#container{
+		font-size: 12px;
+	}
+
+	h1{
+		font-size: 2.5em;
+	}
+
+	.column{
+		width: 40%;
+	}
+
+}
+
+/*Two Column Header Fix*/
+
+
+@media screen and (max-width: 730px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+@media screen and (max-width: 600px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+/*One Column & No Nav*/
+
+@media screen and (max-width: 485px){
+	nav, .column, #slogan{
+		display: none;
+	}
+
+	h1{
+		font-size: 2em;
+	}
+
+	p{
+		font-size: 1.2em;
+	}
+
+	.header-content{
+		border:none;
+	}
+
+	.hiddenOnDesktop{
+		display: block;
+	}
+
+	.button{
+		border: 4px solid #22e3e5;
+		margin: 5%;
+		padding: 4%;
+		width: auto;
+	}
+
+	#about{
+
+		margin-top: 20%;
+		text-decoration: underline;
+
+	}
+
+	a{
+
+	color: #000;
+	font-weight: 800;
+	}
+
+}
