@@ -9,7 +9,7 @@
 }
 
 /* Navigation */
-
+ 
 #navbar{
 	font-family: 'Open Sans', sans-serif;
 	padding: 2% 2% 1.5%;
@@ -39,4 +39,22 @@ a:hover{
 	text-decoration: none;
 	color: #702DFF;
 
+}
+
+/* Body */
+
+h1{
+  border: 1px solid #000;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
